@@ -1,7 +1,7 @@
 <template>
   <!--header for sign up and login-->
   <div
-    class="w-full bg-black bg-opacity-[.89] flex items-center justify-between px-4 py-[14px] sticky top-0"
+    class="w-full bg-black bg-opacity-[.95] flex items-center justify-between px-4 py-[14px] sticky top-0 z-10"
   >
     <!-- div for back & next button -->
     <div class="flex w-fit space-x-2">
