@@ -69,7 +69,7 @@ const playlists = ref([
     name: "Peaceful Piano",
     playlistImg:
       "https://i.scdn.co/image/ab67706f00000002ca5a7517156021292e5663a6",
-    description: "Relax and indulge with beautiful piano pieces",
+    description: "Relax and indulge with beautiful piano pieces ",
   },
   {
     name: "lofi beats",
@@ -106,7 +106,7 @@ const playlists = ref([
     name: "Peaceful Guitar",
     playlistImg:
       "https://i.scdn.co/image/ab67706f000000028ed1a5002b96c2ea882541b2",
-    description: "Unwind to these calm classical guitar pieces.",
+    description: "Unwind to these calm classical guitar pieces. ",
   },
   {
     name: "Piano in the Background",
@@ -124,7 +124,7 @@ const playlists = ref([
       <RouterLink to="/search" class="text-indigo-600">Search</RouterLink>
     </nav>
   </header> -->
-  <div class="flex h-[130vh]">
+  <div class="flex h-auto">
     <Navbar></Navbar>
 
     <!-- main right side -->
@@ -154,49 +154,55 @@ const playlists = ref([
         <!-- w-full border grid grid-flow-col gap-4 overflow-hidden -->
         <!-- w-full border grid grid-cols-[repeat(auto-fill,minmax(180px,1fr))] gap-4 overflow-hidden grid-rows-1 -->
         <!-- cards -->
-        <div class="w-full border grid grid-cols-6 grid-rows-1 gap-6 mt-2">
-          <a
-            href="#"
-            v-for="playlist in playlists"
-            :key="playlist"
-            class="min-w-[180px] max-w-[247px] h-auto border shrink p-4 flex flex-col bg-cardBG rounded-md hover:bg-cardHover ease-in duration-300 group text-left col-span-6 md:col-span-3 lg:col-span-2 xl:col-span-1 row-span-1 flex-nowrap"
-          >
-            <div
-              class="shadow group-hover:shadow-black group-hover:shadow-lg ease-in duration-300 rounded-sm"
+        <div
+          class="bg-red-400 h-auto min-h-[180px] max-h-[310px] 2xl:max-h-[280px] overflow-hidden"
+        >
+          <div class="w-full grid grid-cols-12 grid-rows-1 gap-6 mt-2 gap-y-40">
+            <a
+              href="#"
+              v-for="playlist in playlists"
+              :key="playlist"
+              class="min-w-[180px] max-w-[247px] h-auto border shrink p-4 flex flex-col bg-cardBG rounded-md hover:bg-cardHover ease-in duration-300 group text-left col-span-12 md:col-span-6 lg:col-span-4 xl:col-span-3 2xl:col-span-2 row-span-1 flex-nowrap"
             >
-              <img
-                :src="playlist.playlistImg"
-                alt=""
-                class="object-cover w-full h-full rounded-md"
-              />
-              <button
-                class="absolute w-1/4 bottom-0 right-[10px] opacity-0 group-hover:opacity-100 group-hover:bottom-3 ease-in duration-200 flex justify-end"
+              <div
+                class="shadow group-hover:shadow-black group-hover:shadow-lg ease-in duration-300 rounded-sm"
               >
-                <div
-                  class="bg-spotifyGreen p-2 rounded-full shadow group-hover:shadow-xl group-hover:shadow-black ease-in duration-200 hover:cursor-default hover:scale-110 hover:transition-none flex shrink"
+                <img
+                  :src="playlist.playlistImg"
+                  alt=""
+                  class="object-cover w-full h-full rounded-md"
+                />
+                <button
+                  class="absolute w-1/4 bottom-0 right-[10px] opacity-0 group-hover:opacity-100 group-hover:bottom-3 ease-in duration-200 flex justify-end"
                 >
-                  <svg
-                    role="img"
-                    viewBox="0 0 24 24"
-                    aria-hidden="true"
-                    class="w-6 object-cover"
+                  <div
+                    class="bg-spotifyGreen p-2 rounded-full shadow group-hover:shadow-xl group-hover:shadow-black ease-in duration-200 hover:cursor-default hover:scale-110 hover:transition-none flex shrink"
                   >
-                    <polygon
-                      points="21.57 12 5.98 3 5.98 21 21.57 12"
-                      fill="currentColor"
-                    ></polygon>
-                  </svg>
-                </div>
-              </button>
-            </div>
+                    <svg
+                      role="img"
+                      viewBox="0 0 24 24"
+                      aria-hidden="true"
+                      class="w-6 object-cover"
+                    >
+                      <polygon
+                        points="21.57 12 5.98 3 5.98 21 21.57 12"
+                        fill="currentColor"
+                      ></polygon>
+                    </svg>
+                  </div>
+                </button>
+              </div>
 
-            <div class="mt-4">
-              <h1 class="text-base font-bold">{{ playlist.title }}</h1>
-              <h2 class="text-xs leading-4 font-normal text-grayText mt-1">
-                {{ playlist.description }}
-              </h2>
-            </div>
-          </a>
+              <div class="mt-4">
+                <h1 class="text-base font-bold">{{ playlist.title }}</h1>
+                <h2
+                  class="h-8 text-xs leading-4 font-normal text-grayText mt-1 border text-ellipsis overflow-hidden"
+                >
+                  {{ playlist.description }}
+                </h2>
+              </div>
+            </a>
+          </div>
         </div>
       </div>
     </main>

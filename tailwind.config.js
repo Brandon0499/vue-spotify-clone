@@ -10,6 +10,16 @@ module.exports = {
         spotifyGreen: "#1DB954",
       },
     },
+    // screens: {
+    //   medium: "855px",
+    //   // => @media (min-width: 640px) { ... }
+
+    //   large: "1090px",
+    //   // => @media (min-width: 1024px) { ... }
+
+    //   extralarge: "1296px",
+    //   // => @media (min-width: 1280px) { ... }
+    // },
   },
   plugins: [],
 };
