@@ -1,6 +1,6 @@
 <template>
-  <div class="bg-black py-6 min-w-[241px]">
-    <div class="fixed">
+  <div class="bg-black py-6 min-w-[241px] relative">
+    <div class="fixed bg-black min-w-[241px] h-full">
       <a href="#">
         <div class="border-white w-full px-6">
           <svg viewBox="0 0 1134 340" class="h-10">
@@ -16,8 +16,8 @@
         <div class="flex items-center mt-8">
           <ul class="w-full flex flex-col space-y-4">
             <li class="list-none">
-              <a
-                href="#"
+              <RouterLink
+                :to="{ name: 'Home' }"
                 class="flex items-center fill-gray-400 hover:fill-white font-semibold text-gray-400 hover:text-white ease-in duration-200"
               >
                 <svg
@@ -33,11 +33,14 @@
                   ></path>
                 </svg>
                 <h1 class="ml-4 font-semibold">Home</h1>
-              </a>
+              </RouterLink>
             </li>
             <li class="list-none">
-              <a
-                href="#"
+              <!-- <RouterLink to="/search" class="text-indigo-600"
+                >Search</RouterLink
+              > -->
+              <RouterLink
+                :to="{ name: 'Search' }"
                 class="flex items-center fill-gray-400 hover:fill-white font-semibold text-gray-400 hover:text-white ease-in duration-200"
               >
                 <svg
@@ -52,7 +55,7 @@
                   ></path>
                 </svg>
                 <h1 class="ml-4 font-semibold">Search</h1>
-              </a>
+              </RouterLink>
             </li>
             <li class="list-none">
               <a
