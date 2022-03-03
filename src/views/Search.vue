@@ -2,12 +2,10 @@
   <!-- <Header></Header> -->
   <div class="px-0 py-6 pb-0 text-white">
     <h1 class="text-2xl font-bold mb-6 px-8">Browse all</h1>
-    {{ randomColor() }}
 
     <!-- min-w-[180px] max-w-[248px] min-h-[180px] max-h-[248px] -->
     <div class="w-full flex flex-wrap gap-6 pl-8 justify-items-start">
       <a
-        ref="test"
         href="#"
         v-for="browseCategory in browseList"
         :key="browseCategory.categoryName"
@@ -91,7 +89,18 @@ const browseList = ref([
 
 // const color = computed;
 
-const colors = ["red", "blue", "teal", "sky", "purple"];
+// const colors = ["red", "blue", "teal", "sky", "purple"];
+const colors = [
+  "bg-red-500",
+  "bg-blue-500",
+  "bg-teal-500",
+  "bg-sky-500",
+  "bg-purple-500",
+  "bg-orange-400",
+  "bg-amber-300",
+  "bg-slate-500",
+  "bg-indigo-900",
+];
 
 function generateColorNum() {
   const oneToNine = Math.floor(Math.random() * 9 + 1);
@@ -102,7 +111,7 @@ function generateRandomColors() {
   return colors[Math.floor(Math.random() * colors.length)];
 }
 
-console.log(generateRandomColors());
+// console.log(generateRandomColors());
 
 // console.log(generateColorNum());
 
@@ -111,8 +120,8 @@ console.log(generateRandomColors());
 // );
 
 function randomColor() {
-  const color = `bg-${generateRandomColors()}-${generateColorNum()}`;
-  return `bg-${generateRandomColors()}-${generateColorNum()} rounded-lg overflow-hidden min-w-[300px] max-w-[300px] h-[300px] md:min-w-[248px] md:max-w-[248px] md:h-[248px] lg:min-w-[185px] lg:max-w-[185px] lg:h-[185px] lg:basis-2/12 flex`;
+  const color = `${generateRandomColors()}`;
+  return `${color} rounded-lg overflow-hidden min-w-[300px] max-w-[300px] h-[300px] md:min-w-[248px] md:max-w-[248px] md:h-[248px] lg:min-w-[185px] lg:max-w-[185px] lg:h-[185px] lg:basis-2/12 flex `;
 }
 // console.log(randomColor());
 
