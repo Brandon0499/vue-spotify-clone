@@ -2,15 +2,17 @@
   <!-- <Header></Header> -->
   <div class="px-0 py-6 pb-0 text-white">
     <h1 class="text-2xl font-bold mb-6 px-8">Browse all</h1>
-    {{ randomColor }}
+    {{ randomColor() }}
 
     <!-- min-w-[180px] max-w-[248px] min-h-[180px] max-h-[248px] -->
     <div class="w-full flex flex-wrap gap-6 pl-8 justify-items-start">
       <a
-        :class="randomColor"
+        ref="test"
         href="#"
         v-for="browseCategory in browseList"
         :key="browseCategory.categoryName"
+        class="z-10"
+        :class="randomColor()"
       >
         <h1 class="absolute left-0 p-4 text-xl font-bold">
           {{ browseCategory.categoryName }}
@@ -27,6 +29,7 @@
 
 <script setup>
 import { ref } from "@vue/reactivity";
+import { onMounted } from "vue";
 import { computed } from "@vue/runtime-core";
 import Header from "../components/Header.vue";
 
@@ -103,16 +106,21 @@ console.log(generateRandomColors());
 
 // console.log(generateColorNum());
 
-const randomColor = computed(
-  () =>
-    `bg-${generateRandomColors()}-${generateColorNum()} rounded-lg overflow-hidden min-w-[300px] max-w-[300px] h-[300px] md:min-w-[248px] md:max-w-[248px] md:h-[248px] lg:min-w-[185px] lg:max-w-[185px] lg:h-[185px] lg:basis-2/12 flex`
-);
+// const randomColor = computed(
+//   () => `bg-${generateRandomColors()}-${generateColorNum()} rounded-lg overflow-hidden min-w-[300px] max-w-[300px] h-[300px] md:min-w-[248px] md:max-w-[248px] md:h-[248px] lg:min-w-[185px] lg:max-w-[185px] lg:h-[185px] lg:basis-2/12 flex z`
+// );
 
-// function randomColor() {
-//   const color = `bg-${generateRandomColors()}-${generateColorNum()}`;
-//   return `${color} rounded-lg overflow-hidden min-w-[300px] max-w-[300px] h-[300px] md:min-w-[248px] md:max-w-[248px] md:h-[248px] lg:min-w-[185px] lg:max-w-[185px] lg:h-[185px] lg:basis-2/12 flex`;
-// }
+function randomColor() {
+  const color = `bg-${generateRandomColors()}-${generateColorNum()}`;
+  return `bg-${generateRandomColors()}-${generateColorNum()} rounded-lg overflow-hidden min-w-[300px] max-w-[300px] h-[300px] md:min-w-[248px] md:max-w-[248px] md:h-[248px] lg:min-w-[185px] lg:max-w-[185px] lg:h-[185px] lg:basis-2/12 flex`;
+}
 // console.log(randomColor());
+
+function convertColor() {
+  console.log(test.value);
+}
+
+// test.value.classList.add(randomColor());
 
 const cardColor = ref(randomColor());
 // console.log(cardColor.value);
