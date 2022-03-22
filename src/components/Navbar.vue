@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-black py-6 min-w-[241px] relative">
+  <div class="bg-black py-6 min-w-[241px] relative z-50">
     <div class="fixed bg-black min-w-[241px] h-full">
       <a href="#">
         <div class="border-white w-full px-6">
