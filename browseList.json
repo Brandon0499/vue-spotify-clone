@@ -1,0 +1,98 @@
+const browseList = ref([
+  {
+    id: 1,
+    categoryName: "Podcasts",
+    imgURL: "https://i.scdn.co/image/567158eb895ad26718a814345af0fc43ee785ec5",
+  },
+  {
+    id: 2,
+    categoryName: "Made For You",
+    imgURL: "https://t.scdn.co/images/ea364e99656e46a096ea1df50f581efe",
+  },
+  {
+    id: 3,
+    categoryName: "Charts",
+    imgURL:
+      "https://charts-images.scdn.co/assets/locale_en/regional/weekly/region_global_default.jpg",
+  },
+  {
+    id: 4,
+    categoryName: "New Releases",
+    imgURL: "https://i.scdn.co/image/ab67706f000000027ea4d505212b9de1f72c5112",
+  },
+  {
+    id: 5,
+    categoryName: "New Releases",
+    imgURL: "https://t.scdn.co/images/d0fb2ab104dc4846bdc56d72b0b0d785.jpeg",
+  },
+  {
+    id: 6,
+    categoryName: "Discover",
+    imgURL: "https://i.scdn.co/image/ab67706f000000027ea4d505212b9de1f72c5112",
+  },
+  {
+    id: 7,
+    categoryName: "Concerts",
+    imgURL: "https://t.scdn.co/images/8cfa9cb1e43a404db76eed6ad594057c",
+  },
+  {
+    id: 8,
+    categoryName: "At Home",
+    imgURL: "https://i.scdn.co/image/ab67706f00000002ec9d60059aa215a7ba364695",
+  },
+  {
+    id: 9,
+    categoryName: "RADAR",
+    imgURL: "https://t.scdn.co/images/c6677aa51acf4121b66b9d1f231bd427.png",
+  },
+  {
+    id: 10,
+    categoryName: "Discover",
+    imgURL: "https://i.scdn.co/image/ab67706f000000027ea4d505212b9de1f72c5112",
+  },
+  {
+    id: 11,
+    categoryName: "Concerts",
+    imgURL: "https://t.scdn.co/images/8cfa9cb1e43a404db76eed6ad594057c",
+  },
+  {
+    id: 12,
+    categoryName: "At Home",
+    imgURL: "https://i.scdn.co/image/ab67706f00000002ec9d60059aa215a7ba364695",
+  },
+  {
+    id: 13,
+    categoryName: "RADAR",
+    imgURL: "https://t.scdn.co/images/c6677aa51acf4121b66b9d1f231bd427.png",
+  },
+  {
+    id: 14,
+    categoryName: "At Home",
+    imgURL: "https://i.scdn.co/image/ab67706f00000002ec9d60059aa215a7ba364695",
+  },
+  {
+    id: 15,
+    categoryName: "RADAR",
+    imgURL: "https://t.scdn.co/images/c6677aa51acf4121b66b9d1f231bd427.png",
+  },
+  {
+    id: 16,
+    categoryName: "Discover",
+    imgURL: "https://i.scdn.co/image/ab67706f000000027ea4d505212b9de1f72c5112",
+  },
+  {
+    id: 17,
+    categoryName: "Concerts",
+    imgURL: "https://t.scdn.co/images/8cfa9cb1e43a404db76eed6ad594057c",
+  },
+  {
+    id: 18,
+    categoryName: "At Home",
+    imgURL: "https://i.scdn.co/image/ab67706f00000002ec9d60059aa215a7ba364695",
+  },
+  {
+    id: 19,
+    categoryName: "RADAR",
+    imgURL: "https://t.scdn.co/images/c6677aa51acf4121b66b9d1f231bd427.png",
+  },
+]);

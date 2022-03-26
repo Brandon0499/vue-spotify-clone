@@ -1,4 +1,5 @@
 <template>
+  <Header></Header>
   <div class="px-8 py-6 pb-0 text-white" v-for="i in 3" :key="i">
     <div
       class="flex justify-between w-full"
@@ -9,9 +10,9 @@
         <a href="#" class="capitalize text-2xl font-bold hover:underline">
           {{ category.title }}
         </a>
-        <h1 class="self-end text-sm font-medium text-gray-400">
+        <!-- <h1 class="self-end text-sm font-medium text-gray-400">
           {{ category.categoryDescription }}
-        </h1>
+        </h1> -->
       </div>
       <a
         href="#"
@@ -77,7 +78,9 @@
 </template>
 
 <script setup>
-import { ref } from "vue";
+import { onMounted, ref, computed } from "vue";
+import axios from "axios";
+import Header from "../components/Header.vue";
 const playlists = ref([
   {
     name: "Peaceful Piano",
@@ -187,6 +190,33 @@ const categories = ref([
     ],
   },
 ]);
+
+// const categories = ref(null);
+// const categoryPlaylists = ref(null);
+
+// onMounted(() => {
+//   axios
+//     .get(
+//       "https://v1.nocodeapi.com/brandon0499/spotify/DahteRRUHFTDAlGS/browse/categories?country=AU"
+//     )
+//     .then((res) => {
+//       categories.value = res.data.categories.items;
+//       console.log(res.data.categories.items);
+//     });
+// });
+
+// function getCategoryPlaylists(id) {
+//   axios
+//     .get(
+//       "https://v1.nocodeapi.com/brandon0499/spotify/DahteRRUHFTDAlGS/browse/categoryPlaylist?category_id=" +
+//         id
+//     )
+//     .then((res) => {
+//       categoryPlaylists.value = res.data.playlists.items;
+//       console.log(categoryPlaylists.value.length);
+//     });
+//   // .catch((error) => console.error(error));
+// }
 </script>
 
 <style></style>

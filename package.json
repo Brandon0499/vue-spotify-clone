@@ -7,9 +7,19 @@
     "preview": "vite preview --port 5050"
   },
   "dependencies": {
+    "@emotion/react": "^11.8.2",
+    "@emotion/styled": "^11.8.1",
+    "@material-ui/core": "^4.12.3",
+    "@mui/icons-material": "^5.5.1",
+    "@mui/material": "^5.5.2",
+    "@mui/styled-engine-sc": "^5.5.2",
+    "axios": "^0.26.1",
+    "execa": "latest",
+    "express": "^4.17.3",
+    "spotify-web-api-node": "^5.0.2",
+    "styled-components": "^5.3.3",
     "vue": "^3.2.31",
-    "vue-router": "^4.0.12",
-    "execa": "latest"
+    "vue-router": "^4.0.12"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^2.2.2",

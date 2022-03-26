@@ -1,0 +1,732 @@
+{
+  "playlists": {
+    "href": "https://api.spotify.com/v1/browse/categories/indie_alt/playlists?offset=0&limit=20",
+    "items": [
+      {
+        "collaborative": false,
+        "description": "The best in local music. Cover: Marsha Milan",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/37i9dQZF1DXa8LbKi2hqz1"
+        },
+        "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DXa8LbKi2hqz1",
+        "id": "37i9dQZF1DXa8LbKi2hqz1",
+        "images": [
+          {
+            "height": null,
+            "url": "https://i.scdn.co/image/ab67706f00000003c8bb7c032a4fea01dcc7c5ff",
+            "width": null
+          }
+        ],
+        "name": "Made in Malaysia",
+        "owner": {
+          "display_name": "Spotify",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/spotify"
+          },
+          "href": "https://api.spotify.com/v1/users/spotify",
+          "id": "spotify",
+          "type": "user",
+          "uri": "spotify:user:spotify"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MTY0NzU4NTEyMSwwMDAwMDAyZTAwMDAwMTdmOWJiOWQ2MDEwMDAwMDE3Zjk4NjIxYzhl",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DXa8LbKi2hqz1/tracks",
+          "total": 78
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:37i9dQZF1DXa8LbKi2hqz1"
+      },
+      {
+        "collaborative": false,
+        "description": "The best new tracks every week. Cover: Arcade Fire",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/37i9dQZF1DXdbXrPNafg9d"
+        },
+        "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DXdbXrPNafg9d",
+        "id": "37i9dQZF1DXdbXrPNafg9d",
+        "images": [
+          {
+            "height": null,
+            "url": "https://i.scdn.co/image/ab67706f000000039f1bba3e86f23c1e5ace567c",
+            "width": null
+          }
+        ],
+        "name": "All New Indie",
+        "owner": {
+          "display_name": "Spotify",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/spotify"
+          },
+          "href": "https://api.spotify.com/v1/users/spotify",
+          "id": "spotify",
+          "type": "user",
+          "uri": "spotify:user:spotify"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MTY0Nzk2NTA0MCwwMDAwMDI3ZjAwMDAwMTdmYjI1ZWVlODYwMDAwMDE3ZjlhOTlmMjM4",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DXdbXrPNafg9d/tracks",
+          "total": 206
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:37i9dQZF1DXdbXrPNafg9d"
+      },
+      {
+        "collaborative": false,
+        "description": "Happy songs by alternative bands. Any listener can connect with these indie jams.",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/37i9dQZF1DX2sUQwD7tbmL"
+        },
+        "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DX2sUQwD7tbmL",
+        "id": "37i9dQZF1DX2sUQwD7tbmL",
+        "images": [
+          {
+            "height": null,
+            "url": "https://i.scdn.co/image/ab67706f00000003033194582b613753efeb6e71",
+            "width": null
+          }
+        ],
+        "name": "Feel-Good Indie Rock",
+        "owner": {
+          "display_name": "Spotify",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/spotify"
+          },
+          "href": "https://api.spotify.com/v1/users/spotify",
+          "id": "spotify",
+          "type": "user",
+          "uri": "spotify:user:spotify"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MTY0ODA1Njk4MywwMDAwMDAwMGQ0MWQ4Y2Q5OGYwMGIyMDRlOTgwMDk5OGVjZjg0Mjdl",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DX2sUQwD7tbmL/tracks",
+          "total": 120
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:37i9dQZF1DX2sUQwD7tbmL"
+      },
+      {
+        "collaborative": false,
+        "description": "New and approved indie pop. Cover: MUNA",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/37i9dQZF1DWWEcRhUVtL8n"
+        },
+        "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DWWEcRhUVtL8n",
+        "id": "37i9dQZF1DWWEcRhUVtL8n",
+        "images": [
+          {
+            "height": null,
+            "url": "https://i.scdn.co/image/ab67706f00000003aca00593082596cbc45902c9",
+            "width": null
+          }
+        ],
+        "name": "Indie Pop",
+        "owner": {
+          "display_name": "Spotify",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/spotify"
+          },
+          "href": "https://api.spotify.com/v1/users/spotify",
+          "id": "spotify",
+          "type": "user",
+          "uri": "spotify:user:spotify"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MTY0ODA1Njk0NywwMDAwMDAwMGQ0MWQ4Y2Q5OGYwMGIyMDRlOTgwMDk5OGVjZjg0Mjdl",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DWWEcRhUVtL8n/tracks",
+          "total": 125
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:37i9dQZF1DWWEcRhUVtL8n"
+      },
+      {
+        "collaborative": false,
+        "description": "every main character needs their soundtrack",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/37i9dQZF1DX4OzrY981I1W"
+        },
+        "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DX4OzrY981I1W",
+        "id": "37i9dQZF1DX4OzrY981I1W",
+        "images": [
+          {
+            "height": null,
+            "url": "https://i.scdn.co/image/ab67706f00000003d2789b816dfcdc308c56fb33",
+            "width": null
+          }
+        ],
+        "name": "my life is a movie",
+        "owner": {
+          "display_name": "Spotify",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/spotify"
+          },
+          "href": "https://api.spotify.com/v1/users/spotify",
+          "id": "spotify",
+          "type": "user",
+          "uri": "spotify:user:spotify"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MTY0ODA1Njk0MSwwMDAwMDAwMGQ0MWQ4Y2Q5OGYwMGIyMDRlOTgwMDk5OGVjZjg0Mjdl",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DX4OzrY981I1W/tracks",
+          "total": 100
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:37i9dQZF1DX4OzrY981I1W"
+      },
+      {
+        "collaborative": false,
+        "description": "Let's fall into the K-인디 tracks from Korea's thriving indie scene. (Cover: Wilcox(윌콕스)) (최신곡을 포함한 국내 인디곡들을 만나보세요!)",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/37i9dQZF1DXdTb8AG95jne"
+        },
+        "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DXdTb8AG95jne",
+        "id": "37i9dQZF1DXdTb8AG95jne",
+        "images": [
+          {
+            "height": null,
+            "url": "https://i.scdn.co/image/ab67706f00000003dd6fc6dd6b2039b808fd7d23",
+            "width": null
+          }
+        ],
+        "name": "In The K-Indie",
+        "owner": {
+          "display_name": "Spotify",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/spotify"
+          },
+          "href": "https://api.spotify.com/v1/users/spotify",
+          "id": "spotify",
+          "type": "user",
+          "uri": "spotify:user:spotify"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MTY0ODA1Njk0NywwMDAwMDAwMGQ0MWQ4Y2Q5OGYwMGIyMDRlOTgwMDk5OGVjZjg0Mjdl",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DXdTb8AG95jne/tracks",
+          "total": 50
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:37i9dQZF1DXdTb8AG95jne"
+      },
+      {
+        "collaborative": false,
+        "description": "Slacker jams. Cover: fanclubwallet",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/37i9dQZF1DX0CIO5EOSHeD"
+        },
+        "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DX0CIO5EOSHeD",
+        "id": "37i9dQZF1DX0CIO5EOSHeD",
+        "images": [
+          {
+            "height": null,
+            "url": "https://i.scdn.co/image/ab67706f000000030f705c582d1379689f40cc13",
+            "width": null
+          }
+        ],
+        "name": "Lo-fi Indie",
+        "owner": {
+          "display_name": "Spotify",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/spotify"
+          },
+          "href": "https://api.spotify.com/v1/users/spotify",
+          "id": "spotify",
+          "type": "user",
+          "uri": "spotify:user:spotify"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MTY0ODA1Njk0MywwMDAwMDAwMGQ0MWQ4Y2Q5OGYwMGIyMDRlOTgwMDk5OGVjZjg0Mjdl",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DX0CIO5EOSHeD/tracks",
+          "total": 100
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:37i9dQZF1DX0CIO5EOSHeD"
+      },
+      {
+        "collaborative": false,
+        "description": "the resurgence is real. Cover: Wet Leg",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/37i9dQZF1DX30HHrCAl4ZG"
+        },
+        "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DX30HHrCAl4ZG",
+        "id": "37i9dQZF1DX30HHrCAl4ZG",
+        "images": [
+          {
+            "height": null,
+            "url": "https://i.scdn.co/image/ab67706f000000030a6ffa1f65c6e66b69f29a15",
+            "width": null
+          }
+        ],
+        "name": "Today's Indie Rock",
+        "owner": {
+          "display_name": "Spotify",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/spotify"
+          },
+          "href": "https://api.spotify.com/v1/users/spotify",
+          "id": "spotify",
+          "type": "user",
+          "uri": "spotify:user:spotify"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MTY0ODA1Njk0NSwwMDAwMDAwMGQ0MWQ4Y2Q5OGYwMGIyMDRlOTgwMDk5OGVjZjg0Mjdl",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DX30HHrCAl4ZG/tracks",
+          "total": 100
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:37i9dQZF1DX30HHrCAl4ZG"
+      },
+      {
+        "collaborative": false,
+        "description": "The premier alternative melancholia playlist.",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/37i9dQZF1DWVV27DiNWxkR"
+        },
+        "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DWVV27DiNWxkR",
+        "id": "37i9dQZF1DWVV27DiNWxkR",
+        "images": [
+          {
+            "height": null,
+            "url": "https://i.scdn.co/image/ab67706f00000003266adcded1f7792749680824",
+            "width": null
+          }
+        ],
+        "name": "Sad Indie",
+        "owner": {
+          "display_name": "Spotify",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/spotify"
+          },
+          "href": "https://api.spotify.com/v1/users/spotify",
+          "id": "spotify",
+          "type": "user",
+          "uri": "spotify:user:spotify"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MTY0NjQxMDQ3NiwwMDAwMDA2NzAwMDAwMTdmNTViNjJjNjcwMDAwMDE2ZDE1MzcyMjU5",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DWVV27DiNWxkR/tracks",
+          "total": 100
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:37i9dQZF1DWVV27DiNWxkR"
+      },
+      {
+        "collaborative": false,
+        "description": "Beyond genre, beyond language, beyond borders. Cover: grentperez",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/37i9dQZF1DWZJmo7mlltU6"
+        },
+        "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DWZJmo7mlltU6",
+        "id": "37i9dQZF1DWZJmo7mlltU6",
+        "images": [
+          {
+            "height": null,
+            "url": "https://i.scdn.co/image/ab67706f0000000395ddc580499a9ecb93a48355",
+            "width": null
+          }
+        ],
+        "name": "borderless",
+        "owner": {
+          "display_name": "Spotify",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/spotify"
+          },
+          "href": "https://api.spotify.com/v1/users/spotify",
+          "id": "spotify",
+          "type": "user",
+          "uri": "spotify:user:spotify"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MTY0NzYwMzA5MiwwMDAwMDA4MDAwMDAwMTdmOWNjYzBjNDkwMDAwMDE3ZWRhNjBkYmFl",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DWZJmo7mlltU6/tracks",
+          "total": 99
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:37i9dQZF1DWZJmo7mlltU6"
+      },
+      {
+        "collaborative": false,
+        "description": "The best of modern psych. Cover: Tame Impala",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/37i9dQZF1DX8gDIpdqp1XJ"
+        },
+        "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DX8gDIpdqp1XJ",
+        "id": "37i9dQZF1DX8gDIpdqp1XJ",
+        "images": [
+          {
+            "height": null,
+            "url": "https://i.scdn.co/image/ab67706f000000037b9b3ced42d00a949a88ccae",
+            "width": null
+          }
+        ],
+        "name": "Modern Psychedelia",
+        "owner": {
+          "display_name": "Spotify",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/spotify"
+          },
+          "href": "https://api.spotify.com/v1/users/spotify",
+          "id": "spotify",
+          "type": "user",
+          "uri": "spotify:user:spotify"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MTY0ODA1Njk1MywwMDAwMDAwMGQ0MWQ4Y2Q5OGYwMGIyMDRlOTgwMDk5OGVjZjg0Mjdl",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DX8gDIpdqp1XJ/tracks",
+          "total": 150
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:37i9dQZF1DX8gDIpdqp1XJ"
+      },
+      {
+        "collaborative": false,
+        "description": "The songs that defined a golden era of British indie. Cover: Blur",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/37i9dQZF1DXaVgr4Tx5kRF"
+        },
+        "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DXaVgr4Tx5kRF",
+        "id": "37i9dQZF1DXaVgr4Tx5kRF",
+        "images": [
+          {
+            "height": null,
+            "url": "https://i.scdn.co/image/ab67706f00000003c21d0e600a15c8f728310d9d",
+            "width": null
+          }
+        ],
+        "name": "Britpop, Etc.",
+        "owner": {
+          "display_name": "Spotify",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/spotify"
+          },
+          "href": "https://api.spotify.com/v1/users/spotify",
+          "id": "spotify",
+          "type": "user",
+          "uri": "spotify:user:spotify"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MTYxODUxMDkxNCwwMDAwMDAyOTAwMDAwMTc4ZDZjNGEzYzYwMDAwMDE2Y2Y2OGI1YzZi",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DXaVgr4Tx5kRF/tracks",
+          "total": 50
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:37i9dQZF1DXaVgr4Tx5kRF"
+      },
+      {
+        "collaborative": false,
+        "description": "Glimmering, warm, and bright memories: Broadcast on the cover.",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/37i9dQZF1DXcNf6sH1qnKU"
+        },
+        "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DXcNf6sH1qnKU",
+        "id": "37i9dQZF1DXcNf6sH1qnKU",
+        "images": [
+          {
+            "height": null,
+            "url": "https://i.scdn.co/image/ab67706f000000034f1883bcac8e10d210f69d7f",
+            "width": null
+          }
+        ],
+        "name": "Dreampop Classics",
+        "owner": {
+          "display_name": "Spotify",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/spotify"
+          },
+          "href": "https://api.spotify.com/v1/users/spotify",
+          "id": "spotify",
+          "type": "user",
+          "uri": "spotify:user:spotify"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MTY0ODA1Njk0MiwwMDAwMDAwMGQ0MWQ4Y2Q5OGYwMGIyMDRlOTgwMDk5OGVjZjg0Mjdl",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DXcNf6sH1qnKU/tracks",
+          "total": 50
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:37i9dQZF1DXcNf6sH1qnKU"
+      },
+      {
+        "collaborative": false,
+        "description": "獨立就是硬地自主，音樂就要展現風格，加起來就是痛快！Cover: 宇宙人 (Cosmospeople)",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/37i9dQZF1DXbKxnYoweJNI"
+        },
+        "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DXbKxnYoweJNI",
+        "id": "37i9dQZF1DXbKxnYoweJNI",
+        "images": [
+          {
+            "height": null,
+            "url": "https://i.scdn.co/image/ab67706f00000003875027cb8f57a1046bec5dfa",
+            "width": null
+          }
+        ],
+        "name": "獨立最前線",
+        "owner": {
+          "display_name": "Spotify",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/spotify"
+          },
+          "href": "https://api.spotify.com/v1/users/spotify",
+          "id": "spotify",
+          "type": "user",
+          "uri": "spotify:user:spotify"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MTY0NzYxNDgxMywwMDAwMDE1ZTAwMDAwMTdmOWQ3ZWU2NGEwMDAwMDE3ZjkzMWM0YmM1",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DXbKxnYoweJNI/tracks",
+          "total": 126
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:37i9dQZF1DXbKxnYoweJNI"
+      },
+      {
+        "collaborative": false,
+        "description": "The best in modern indie. Cover: Rex Orange County",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/37i9dQZF1DX2Nc3B70tvx0"
+        },
+        "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DX2Nc3B70tvx0",
+        "id": "37i9dQZF1DX2Nc3B70tvx0",
+        "images": [
+          {
+            "height": null,
+            "url": "https://i.scdn.co/image/ab67706f0000000387b5e71a0ce02f2e13b2ed2a",
+            "width": null
+          }
+        ],
+        "name": "Ultimate Indie",
+        "owner": {
+          "display_name": "Spotify",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/spotify"
+          },
+          "href": "https://api.spotify.com/v1/users/spotify",
+          "id": "spotify",
+          "type": "user",
+          "uri": "spotify:user:spotify"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MTY0ODA1Njk0MiwwMDAwMDAwMGQ0MWQ4Y2Q5OGYwMGIyMDRlOTgwMDk5OGVjZjg0Mjdl",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DX2Nc3B70tvx0/tracks",
+          "total": 100
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:37i9dQZF1DX2Nc3B70tvx0"
+      },
+      {
+        "collaborative": false,
+        "description": "midwxst discord poppin rn",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/37i9dQZF1DX7HOk71GPfSw"
+        },
+        "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DX7HOk71GPfSw",
+        "id": "37i9dQZF1DX7HOk71GPfSw",
+        "images": [
+          {
+            "height": null,
+            "url": "https://i.scdn.co/image/ab67706f000000034ac92f5d8ea2333c85e90519",
+            "width": null
+          }
+        ],
+        "name": "hyperpop",
+        "owner": {
+          "display_name": "Spotify",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/spotify"
+          },
+          "href": "https://api.spotify.com/v1/users/spotify",
+          "id": "spotify",
+          "type": "user",
+          "uri": "spotify:user:spotify"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MTY0Nzk3MDg5NywwMDAwMDE0MjAwMDAwMTdmYjJiODRlOTEwMDAwMDE3ZjkzOWE0MTY0",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DX7HOk71GPfSw/tracks",
+          "total": 100
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:37i9dQZF1DX7HOk71GPfSw"
+      },
+      {
+        "collaborative": false,
+        "description": "Classic tracks with roots in post-punk, garage rock, and new wave. Cover: The Strokes",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/37i9dQZF1DXbMYUPb05hjJ"
+        },
+        "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DXbMYUPb05hjJ",
+        "id": "37i9dQZF1DXbMYUPb05hjJ",
+        "images": [
+          {
+            "height": null,
+            "url": "https://i.scdn.co/image/ab67706f0000000377460dfffa3353762a7b80fc",
+            "width": null
+          }
+        ],
+        "name": "Garage Rock Revival",
+        "owner": {
+          "display_name": "Spotify",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/spotify"
+          },
+          "href": "https://api.spotify.com/v1/users/spotify",
+          "id": "spotify",
+          "type": "user",
+          "uri": "spotify:user:spotify"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MTY0ODA1Njk0MywwMDAwMDAwMGQ0MWQ4Y2Q5OGYwMGIyMDRlOTgwMDk5OGVjZjg0Mjdl",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DXbMYUPb05hjJ/tracks",
+          "total": 90
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:37i9dQZF1DXbMYUPb05hjJ"
+      },
+      {
+        "collaborative": false,
+        "description": "Cruising through a shimmering night with the current City Pop wave from Asia.",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/37i9dQZF1DWZQ9qjpEt3QA"
+        },
+        "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DWZQ9qjpEt3QA",
+        "id": "37i9dQZF1DWZQ9qjpEt3QA",
+        "images": [
+          {
+            "height": null,
+            "url": "https://i.scdn.co/image/ab67706f000000030373581ccb90a6b3c7c1ea6b",
+            "width": null
+          }
+        ],
+        "name": "Neon Lights",
+        "owner": {
+          "display_name": "Spotify",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/spotify"
+          },
+          "href": "https://api.spotify.com/v1/users/spotify",
+          "id": "spotify",
+          "type": "user",
+          "uri": "spotify:user:spotify"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MTY0NjMxOTYwMCwwMDAwMDA2ZDAwMDAwMTdmNTA0YjgyNTkwMDAwMDE3YjM0OWE0OWY0",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DWZQ9qjpEt3QA/tracks",
+          "total": 65
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:37i9dQZF1DWZQ9qjpEt3QA"
+      },
+      {
+        "collaborative": false,
+        "description": "Raw and unfiltered. Cover: Sunflower Bean",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/37i9dQZF1DX3IplhwNexYg"
+        },
+        "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DX3IplhwNexYg",
+        "id": "37i9dQZF1DX3IplhwNexYg",
+        "images": [
+          {
+            "height": null,
+            "url": "https://i.scdn.co/image/ab67706f00000003f7e2d2bcc135d1711cb91d03",
+            "width": null
+          }
+        ],
+        "name": "pulp",
+        "owner": {
+          "display_name": "Spotify",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/spotify"
+          },
+          "href": "https://api.spotify.com/v1/users/spotify",
+          "id": "spotify",
+          "type": "user",
+          "uri": "spotify:user:spotify"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MTY0NjkzNzI2MCwwMDAwMDA4MDAwMDAwMTdmNzUxYzQwZTUwMDAwMDE3Zjc1MWJkMDRm",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DX3IplhwNexYg/tracks",
+          "total": 65
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:37i9dQZF1DX3IplhwNexYg"
+      },
+      {
+        "collaborative": false,
+        "description": "Hottest indie sounds & the best new tracks from Asia. Cover: 宇宙人(Cosmos People)",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/37i9dQZF1DWXQXM7agvwjO"
+        },
+        "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DWXQXM7agvwjO",
+        "id": "37i9dQZF1DWXQXM7agvwjO",
+        "images": [
+          {
+            "height": null,
+            "url": "https://i.scdn.co/image/ab67706f0000000375980ab7e0196a9aa0df2c1e",
+            "width": null
+          }
+        ],
+        "name": ".ORG",
+        "owner": {
+          "display_name": "Spotify",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/spotify"
+          },
+          "href": "https://api.spotify.com/v1/users/spotify",
+          "id": "spotify",
+          "type": "user",
+          "uri": "spotify:user:spotify"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MTY0NzUzMjgwMCwwMDAwMDRhZDAwMDAwMTdmOTg5Yjc4OTUwMDAwMDE3Zjk1ZGQwNDQ2",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DWXQXM7agvwjO/tracks",
+          "total": 75
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:37i9dQZF1DWXQXM7agvwjO"
+      }
+    ],
+    "limit": 20,
+    "next": "https://api.spotify.com/v1/browse/categories/indie_alt/playlists?offset=20&limit=20",
+    "offset": 0,
+    "previous": null,
+    "total": 57
+  }
+}

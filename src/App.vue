@@ -3,6 +3,7 @@ import { RouterLink, RouterView } from "vue-router";
 import Navbar from "./components/Navbar.vue";
 import Header from "./components/Header.vue";
 import { ref } from "@vue/reactivity";
+import SearchHeader from "./components/SearchHeader.vue";
 import PlaylistCategory from "./components/PlaylistCategory.vue";
 // import SpotifyIcon from "./components/icons/SpotifyLogo.vue";
 // import HomeIcon from "./components/icons/HomeIcon.vue";
@@ -124,7 +125,7 @@ const playlists = ref([
 
     <!-- main right side -->
     <main class="w-full bg-spotifyBG h-auto min-h-screen">
-      <Header></Header>
+      <!-- <Header></Header> -->
       <RouterView></RouterView>
       <!-- <PlaylistCategory
         :categories="categories"
